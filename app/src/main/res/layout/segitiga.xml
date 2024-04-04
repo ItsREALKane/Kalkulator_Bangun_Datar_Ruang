@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/backhitung"
+    tools:context=".bangunDatar.segitiga">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menghitung Luas Segitiga"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_gravity="center_horizontal"
+        />
+
+    <ImageView
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:src="@drawable/triangle_icon_137074"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        />
+
+    <EditText
+        android:id="@+id/Alas_Segitiga"
+        android:inputType="number"
+        android:layout_width="165dp"
+        android:layout_height="72dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:background="@drawable/input"
+        android:hint="Masukan Alas"/>
+
+    <EditText
+        android:id="@+id/Tinggi_Segitiga"
+        android:inputType="number"
+        android:layout_width="152dp"
+        android:layout_height="72dp"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:textAlignment="center"
+        android:background="@drawable/input"
+        android:hint="Masukan Tinggi"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnhitung"
+        android:layout_width="108dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Hitung"
+        android:background="@drawable/button"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/tvhasil"
+        android:textColor="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:padding="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="hasil"/>
+
+</LinearLayout>
